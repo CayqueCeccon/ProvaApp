@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova App</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>Painel de Análise de Produtos</h1>
+    <div id="container" class="pricipais" style="flex-direction: column;">
+        <div id="formulario" class="pricipais" style="display: flex; flex-direction: column;">
+            <div id="inputs" style="display: flex; justify-content: space-around;">
+                <input type="text" id="nomeProduto" value="Produto">
+                <input type="text" id="precoProduto" value="Preço (R$)">
+                <input type="text" id="qntProduto" value="Quantidade">
+                <button onclick="adicionarProduto()">Adicionar Produto</button>
+            </div>
+        </div>
+
+        <div id="exibicao" class="pricipais" style="justify-content: space-around;">
+            <div id="produtoCaro" class="exibirItens" style="flex-direction: column;">
+                <div style="background-color: rgb(255, 123, 0); align-items: center;"><p>Produto Mais Caro: </p></div>
+                <div style="background-color: darkorange;">
+                    cayque
+                </div>
+            </div>
+
+            <div id="maiorQuantidade" class="exibirItens" style="flex-direction: column;">
+                <div style="background-color: rgb(1, 138, 1); align-items: center;"><p>Maior Quantidade: </p></div>
+                <div style="background-color: forestgreen;">
+                    lunim
+                </div>
+            </div>
+
+            <div id="valorTotalEstoque" class="exibirItens" style="flex-direction: column;">
+                <div style="background-color: rgb(0, 128, 255); align-items: center;"><p>Valor Total em Estoque: </p></div>
+                <div style="background-color: dodgerblue;">
+                    henrique
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
